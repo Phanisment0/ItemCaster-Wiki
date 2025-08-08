@@ -9,7 +9,7 @@ authors:
 ---
 
 <video controls>
-	<source src="armor_ability.mp4" type="video/mp4">
+	<source src="https://github.com/Phanisment0/ItemCaster-Wiki/raw/refs/heads/main/docs/user/example/armor_ability.mp4" type="video/mp4">
 </video>
 
 Abilities can also be assigned to **armor items**, not just to items held in hand. This allows you to trigger special effects or skills when a player wears specific armor pieces.
