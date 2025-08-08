@@ -1,0 +1,9 @@
+size: { width: 1200, height: 630 }
+layers:
+  - background:
+      color: "#4051b5"
+  - size: { width: 144, height: 144 }
+    offset: { x: 992, y: 64 }
+    icon:
+      value: material/cat
+      color: white
