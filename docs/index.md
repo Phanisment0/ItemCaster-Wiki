@@ -8,8 +8,8 @@ authors:
 - phanisment
 ---
 
-![Preview](../../assets/images/preview.png)
-![Separator](../../assets/images/separator.png)
+![Preview](./assets/images/preview.png)
+![Separator](./assets/images/separator.png)
 
 !!! note
     This plugin is still under development. Features and configurations may change in the future as new functionality is added.
