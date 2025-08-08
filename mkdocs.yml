@@ -25,10 +25,7 @@ theme:
 plugins:
 - search:
     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-- social:
-    cards_layout_dir: layouts
-    cards_layout: custom
-    debug: true
+- social
 
 extra:
   social:
