@@ -49,9 +49,11 @@ For List of Activator, you can see it in [here](./user/activator-list.md).
 
 This is example usage of this plugin, Casting Mythicmobs Skill with Item.
 
-The creator of this skill is :simple-discord: [KiKo](https://discordlookup.com/user/794739262917967912)
+The skill is created by [:simple-discord: KiKo](https://discordlookup.com/user/794739262917967912)
 
-![Example Usage](./assets/videos/usage_example.mp4)
+<video controls>
+	<source src="assets/videos/usage_example.mp4" type="video/mp4">
+</video>
 
 ---
 
