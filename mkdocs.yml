@@ -1,0 +1,100 @@
+site_name: ItemCaster Wiki
+site_author: Phanisment
+
+repo_name: Phanisment0/ItemCaster
+repo_url: https://github.com/Phanisment0/ItemCaster
+
+copyright: "© Phanisment | 2025"
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    scheme: slate
+    primary: black
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.sections
+  - navigation.path
+  - navigation.indexes
+  - navigation.footer
+  - content.code.copy
+
+plugins:
+- search:
+    separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Phanisment0
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/CXuYvt6F6c
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- toc:
+    permalink: true
+- pymdownx.highlight
+- pymdownx.tabbed:
+    alternate_style: true
+- attr_list
+- pymdownx.emoji:
+   emoji_index: !!python/name:material.extensions.emoji.twemoji
+   emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - User:
+    - user/index.md
+    - Attributes List:
+      - user/attributes/index.md
+      - Skill & Activator: user/attributes/skill-activator.md
+      - Cooldown: user/attributes/cooldown.md
+      - Power: user/attributes/power.md
+      - Sneaking: user/attributes/sneaking.md
+      - Interval: user/attributes/interval.md
+      - Signal: user/attributes/signal.md
+      - Cancel Event: user/attributes/cancel-event.md
+      - Variables: user/attributes/variables.md
+    - Configurations:
+      - user/configurations/index.md
+      - Item: user/configurations/item-configuration.md
+      - Recipe: user/configurations/recipe-configuration.md
+    - Conditions List:
+      - user/conditions/index.md
+      - Attack Cooldown: user/conditions/attack-cooldown.md
+    - Mechanics List:
+      - user/mechanics/index.md
+      - user/mechanics/add-amount-item.md
+      - user/mechanics/add-durability-item.md
+      - user/mechanics/add-enchantment-item.md
+      - user/mechanics/decrease-amount-item.md
+      - user/mechanics/decrease-durability-item.md
+      - user/mechanics/remove-enchantment-item.md
+      - user/mechanics/reset-enchantment-item.md
+      - user/mechanics/set-amount-item.md
+      - user/mechanics/set-durability-item.md
+      - user/mechanics/set-item.md
+      - user/mechanics/set-model-data-item.md
+      - user/mechanics/set-type-item.md
+    - Example:
+      - user/example/index.md
+      - Armor Ability: user/example/armor-ability.md
+      - Datapack Integration: user/example/datapack-integration.md
+    - Activator List: user/activator-list.md
+    - NBT Structure: user/nbt-structure.md
+  - Dev:
+    - dev/index.md
+    - API Helper: dev/api-helper.md
+  - Support: support.md
