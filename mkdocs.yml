@@ -98,3 +98,5 @@ nav:
     - dev/index.md
     - API Helper: dev/api-helper.md
   - Support: support.md
+  - Change Log:
+    - change_log/2.0.0.md

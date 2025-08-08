@@ -37,3 +37,5 @@ Example_Item:
 As shown above, the `Abilities` section defines the skill and the trigger (in this case, `left_click`) for the item.
 
 For List of Activator, you can see it in [here](user/activator-list.md).
+
+Older Version for this Wiki is in this repository [`Phanisment/Item-Caster`](https://github.com/Phanisment/Item-Caster/wiki)
