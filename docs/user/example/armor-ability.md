@@ -8,6 +8,10 @@ authors:
 - phanisment
 ---
 
+<video controls>
+	<source src="assets/videos/armor_ability.mp4" type="video/mp4">
+</video>
+
 Abilities can also be assigned to **armor items**, not just to items held in hand. This allows you to trigger special effects or skills when a player wears specific armor pieces.
 
 However, **not all activators are supported** for armor. Activators that rely on item-specific interactions from Bukkit events (such as `BOW_SHOOT`) are **not supported** when the item is worn as armor.
