@@ -1,6 +1,6 @@
 site_name: ItemCaster Wiki
 site_author: Phanisment
-
+site_url: https://phanisment0.github.io/ItemCaster-Wiki
 repo_name: Phanisment0/ItemCaster
 repo_url: https://github.com/Phanisment0/ItemCaster
 
@@ -25,6 +25,7 @@ theme:
 plugins:
 - search:
     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+- social
 
 extra:
   social:
