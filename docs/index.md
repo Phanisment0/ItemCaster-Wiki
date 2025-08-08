@@ -1,5 +1,6 @@
 ---
 title: Home
+description: First page of the Wiki.
 icon: material/home
 date:
   created: 2025-08-4

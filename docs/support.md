@@ -1,5 +1,6 @@
 ---
 title: Support
+description: Support Me.
 icon: material/star-four-points
 date:
   created: 2025-08-5
