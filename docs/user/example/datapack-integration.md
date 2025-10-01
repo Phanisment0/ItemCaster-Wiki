@@ -36,7 +36,7 @@ To use this in a datapack, use the `minecraft:set_custom_data` function inside a
               "function": "minecraft:set_custom_data",
               "tag": {
                 "ItemCaster": {
-                  "abilities":
+                  "abilities": [
                     {
                       "skill": "SummonSkeleton",
                       "activator": "LEFT_CLICK"
