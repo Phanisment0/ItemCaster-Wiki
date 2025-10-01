@@ -35,12 +35,14 @@ To use this in a datapack, use the `minecraft:set_custom_data` function inside a
             {
               "function": "minecraft:set_custom_data",
               "tag": {
-                "ItemCaster": [ 
-                  {
-                    "skill": "SummonSkeleton",
-                    "activator": "LEFT_CLICK"
-                  }
-                ]
+                "ItemCaster": {}
+                  "abilities":
+                    {
+                      "skill": "SummonSkeleton",
+                      "activator": "LEFT_CLICK"
+                    }
+                  ]
+                }
               }
             }
           ]
@@ -52,30 +54,6 @@ To use this in a datapack, use the `minecraft:set_custom_data` function inside a
 ```
 
 For full structure nbt type you can [see it in here](../nbt-structure.md)
-
-### Explanation
-`skill`: The registered skill name from your MythicMobs.
-
-`activator`: The trigger used to activate the skill (e.g., `LEFT_CLICK`, `RIGHT_CLICK`, `DAMAGED`, etc).
-
-You can add multiple skills in the array to attach multiple abilities to the same item:
-```json
-"ItemCaster": [
-  {
-    "skill": "SummonSkeleton",
-    "activator": "LEFT_CLICK"
-  },
-  {
-    "skill": "HealNearby",
-    "activator": "RIGHT_CLICK"
-  }
-]
-```
-
-### Supported Attributes
-All additional attributes like cooldown, condition, trigger, etc., can also be defined inside each ability object.
-
-For the full list of available attributes and how to use them, check: [Attributes](../attributes/index.md)
 
 ## Helpful Tools
 To help you create datapack loot tables easily, you can use the following tool: [Misode Loot Table Generator](https://misode.github.io/loot-table/)
