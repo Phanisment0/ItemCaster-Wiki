@@ -25,7 +25,7 @@ Place your item configurations inside:
 
 ```yaml
 Example_Item:
-  Model: <String>          # Custom Model ID or external model source
+  ModelItem: <String>      # Custom Model ID or external model source
   Options:
     HideTooltip: <Boolean> # (1.21+) Hide all tooltips from the item
   Abilities:               # This Map Array is called Ability Attributes
@@ -45,9 +45,6 @@ Example_Item:
 
 The `Model` field controls how the item's appearance is handled.
 
-- If set as an **integer**, it behaves like standard `CustomModelData` (same as MythicMobs).
-- If set as a **string**, it uses external model systems like **ItemsAdder**, **Nexo**, or **Oraxen**.
-
 #### Example
 ```yaml
 Example_Item:
@@ -55,7 +52,7 @@ Example_Item:
 ```
 
 !!! warning
-    **Do not set** `Id` or `Material` in the same item entry — doing so will override and break the custom model system from ItemCaster.
+    **Do not set** `Id` or `Material` in the same item entry doing so will override and break the custom model system from ItemCaster.
 
 #### Supported External Items:
 - `itemsadder:<namespace>:<item_id>`

@@ -1,6 +1,6 @@
 The `variables` attribute allows you to define **custom skill variables** for a MythicMobs skill directly in the item's ability.
 
-This uses the **MythicMobs API**, and works just like regular skill variables — but can be customized per item, making it much more convenient and flexible.
+This uses the **MythicMobs API**, and works just like regular skill variables but can be customized per item, making it much more convenient and flexible.
 
 You can define **one or more variables** using this system, depending on the needs of your skill.
 
