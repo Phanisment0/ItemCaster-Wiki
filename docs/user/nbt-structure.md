@@ -14,7 +14,7 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
 
 === "NBT"
 
-    ```yaml
+    ```mcfunction
     minecraft:custom_data[
       ItemCaster: {
         abilities: [
