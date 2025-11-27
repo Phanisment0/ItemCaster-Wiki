@@ -15,7 +15,7 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
 === "NBT"
 
     ```yaml
-    minecraft:custom_data: {
+    minecraft:custom_data[
       ItemCaster: {
         abilities: [
           {
@@ -31,7 +31,7 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
           }
         ]
       }
-    }
+    ]
     ```
 
 === "JSON"
