@@ -41,18 +41,15 @@ Example_Item:
 
 [See Here for full explanation of Ability Attributes](../attributes/index.md)
 
-### Model
+### ModelItem
 
-The `Model` field controls how the item's appearance is handled.
+The `ModelItem` field controls how the item's appearance is handled.
 
 #### Example
 ```yaml
 Example_Item:
-  Model: nexo:forest_axe
+  ModelItem: nexo:forest_axe
 ```
-
-!!! warning
-    **Do not set** `Id` or `Material` in the same item entry doing so will override and break the custom model system from ItemCaster.
 
 #### Supported External Items:
 - `itemsadder:<namespace>:<item_id>`
