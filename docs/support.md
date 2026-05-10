@@ -2,14 +2,9 @@
 title: Support
 description: Support Me.
 icon: material/star-four-points
-date:
-  created: 2025-08-5
-  updated: 2025-08-6
 authors:
 - phanisment
 ---
-
-If you want to support the project, you can just PR the project and that will make me happy too because this project I developed for a year alone and I don't have a friend to make this together. :heart:
 
 You can support me with [Buy Me a Coffee](https://buymeacoffee.com/phanisment).
 

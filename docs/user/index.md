@@ -1,9 +1,6 @@
 ---
 title: User Instructions
 icon: material/human
-date:
-  created: 2025-08-4
-  updated: 2025-08-5
 authors:
 - phanisment
 ---
@@ -21,13 +18,16 @@ If this is your first time using the plugin, I recommend reading the following s
 3. [Activator List](./activator-list.md)  
    Understand the different triggers that can activate abilities.
 
+4. [Hand Configuration](./configurations/hand-configuration.md)  
+   Learn defrence method to cast skill.
+
 ---
 
 ## For Datapack Developers
 
 If you're developing a datapack, follow this reading order:
 
-1. [Datapack Integration](./example/datapack-integration.md)
+1. [Datapack Integration](./example/datapack-integration.md)  
    Download the Datapack for better understanding how that will work.
 
 2. [NBT Structure](./nbt-structure.md)  

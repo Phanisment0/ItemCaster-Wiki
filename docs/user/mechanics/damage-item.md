@@ -1,23 +1,21 @@
 ---
-title: Add Amount Item
+title: Damage Item
 authors:
 - phanisment
 ---
 
-Increases the amount of the item in a specified slot, such as the player's hand or inventory. This mechanic is useful for giving additional items as part of a skill.
+Decreases the durability of the item in a specified slot, such as the player's hand or equipment slot. This can simulate damage or usage on an item when a skill is triggered.
 
 ## Attributes
 
 | Attribute | Aliases | Description                                                                                                       | Default |
 |-----------|---------|-------------------------------------------------------------------------------------------------------------------|---------|
 | `slot`    | `s`     | The equipment slot where the item is located. See [EquipmentSlot](../../enum/equipment-slot.md) for valid values. | `HAND`  |
-| `amount`  | `a`     | The number of items to add to the item stack.                                                                     | `1`     |
+| `amount`  | `a`     | The number of durability points to decrease.                                                                      | `1`     |
 
 ## Example
 
 ```yaml
 Skills:
-- addamountitem{a=2} @self
+- damageitem{a=5} @self
 ```
-
-This will increase the amount of the item in the player's main hand by 2.

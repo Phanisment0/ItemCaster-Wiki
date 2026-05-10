@@ -1,16 +1,11 @@
 ---
 title: Armor Ability Example
 icon: fontawesome/solid/shirt
-date:
-  created: 2025-08-06
-  updated: 2025-08-06
 authors:
 - phanisment
 ---
 
-<video controls>
-	<source src="https://github.com/Phanisment0/ItemCaster-Wiki/raw/refs/heads/main/docs/user/example/armor_ability.mp4" type="video/mp4">
-</video>
+![type:video](../../assets/videos/armor_ability.mp4)
 
 Abilities can also be assigned to **armor items**, not just to items held in hand. This allows you to trigger special effects or skills when a player wears specific armor pieces.
 

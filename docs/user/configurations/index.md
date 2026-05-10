@@ -1,9 +1,6 @@
 ---
 title: Configuration Instructions
 icon: material/wrench
-date:
-  created: 2025-08-05
-  updated: 2025-08-06
 authors:
 - phanisment
 ---

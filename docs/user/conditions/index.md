@@ -1,9 +1,6 @@
 ---
 title: Conditions List
 icon: material/exclamation-thick
-date:
-  created: 2025-08-05
-  updated: 2025-08-05
 authors:
 - phanisment
 ---
@@ -14,6 +11,6 @@ Currently, only a few conditions are available but more will be added in the fut
 
 Learn more about MythicMobs conditions [here](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Skills/conditions)
 
-| Condition | Type   | Description                                      |
-|-----------|--------|--------------------------------------------------|
+| Condition                              | Type   | Description                                          |
+|----------------------------------------|--------|------------------------------------------------------|
 | [AttackCooldown](./attack-cooldown.md) | Entity | Checks whether the player's attack cooldown is ready |

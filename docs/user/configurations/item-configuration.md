@@ -1,9 +1,6 @@
 ---
 title: Item Configuration
 icon: material/sword-cross
-date:
-  created: 2025-08-04
-  updated: 2025-08-06
 authors:
 - phanisment
 ---
@@ -23,20 +20,23 @@ Place your item configurations inside:
 
 ## Configuration Structure
 
-```yaml
+```yml
+
 Example_Item:
-  ModelItem: <String>      # Custom Model ID or external model source
+  ModelItem: <String>        # Custom Model ID or external model source
   Options:
-    HideTooltip: <Boolean> # (1.21+) Hide all tooltips from the item
-  Abilities:               # This Map Array is called Ability Attributes
-  - skill: <String>        # Mythicmobs Id Skill
-    activator: <String>    # Event Trigger for the skill
-    cooldown: <Double>     # The cooldown item (in Seconds)
-    sneaking: <Boolean>    # Check if player is sneaking or not
-    interval: <Integer>    # Delay tick interval, special for `TICK` activator.
-    signal: <String>       # 
-    variables:             # 
+    HideTooltip: <Boolean>   # (1.21+) Hide all tooltips from the item
+  Abilities:                 # This Map Array is called Ability Attributes
+  - skill: <String>          # Mythicmobs Id Skill
+    activator: <String>      # Event Trigger for the skill
+    cooldown: <Double>       # The cooldown item (in Seconds)
+    show_cooldown: <Boolean> 
+    sneaking: <Boolean>      # Check if player is sneaking or not
+    interval: <Integer>      # Delay tick interval, special for `TICK` activator.
+    signal: <String>         # 
+    variables:               # Variable map for skill.
       <key>: <value>
+
 ```
 
 [See Here for full explanation of Ability Attributes](../attributes/index.md)

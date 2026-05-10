@@ -1,9 +1,6 @@
 ---
 title: Datapack Integration Example
 icon: material/file
-date:
-  created: 2025-08-06
-  updated: 2025-08-06
 authors:
 - phanisment
 ---

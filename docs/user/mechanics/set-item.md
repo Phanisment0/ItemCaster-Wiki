@@ -1,8 +1,5 @@
 ---
 title: Set Item
-date:
-  created: 2025-08-06
-  updated: 2025-08-06
 authors:
 - phanisment
 ---
@@ -25,10 +22,10 @@ The `type` attribute supports the following formats:
 
 ## Attributes
 
-| Attribute | Aliases             | Description | Default |
-|-----------|---------------------|-------------|---------|
-| `slot`    | `s`                 | The equipment slot where the item will be placed. See [EquipmentSlot](../../enum/equipment-slot.md) for valid values. | `HAND` |
-| `item`    | `replace`, `i`, `r` | The item ID or type to set. Supports Minecraft material or external item format. | `STONE` |
+| Attribute | Aliases             | Description                                                                                                           | Default |
+|-----------|---------------------|-----------------------------------------------------------------------------------------------------------------------|---------|
+| `slot`    | `s`                 | The equipment slot where the item will be placed. See [EquipmentSlot](../../enum/equipment-slot.md) for valid values. | `HAND`  |
+| `item`    | `replace`, `i`, `r` | The item ID or type to set. Supports Minecraft material or external item format.                                      | `STONE` |
 
 ## Example
 
@@ -38,3 +35,8 @@ Skills:
 ```
 
 This will replace the item in the player's main hand with the **Nexo** item `forest_axe`
+
+## Aliasses
+- itemcaster:setitem 
+- itemcaster:replaceitem
+- replaceitem

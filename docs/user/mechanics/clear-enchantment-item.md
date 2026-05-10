@@ -1,23 +1,28 @@
 ---
-title: Add Amount Item
+title: Clear Enchantment Item
 authors:
 - phanisment
 ---
 
-Increases the amount of the item in a specified slot, such as the player's hand or inventory. This mechanic is useful for giving additional items as part of a skill.
+Removes **all enchantments** from the item in the specified equipment slot.
 
 ## Attributes
 
 | Attribute | Aliases | Description                                                                                                       | Default |
 |-----------|---------|-------------------------------------------------------------------------------------------------------------------|---------|
 | `slot`    | `s`     | The equipment slot where the item is located. See [EquipmentSlot](../../enum/equipment-slot.md) for valid values. | `HAND`  |
-| `amount`  | `a`     | The number of items to add to the item stack.                                                                     | `1`     |
 
 ## Example
 
 ```yaml
 Skills:
-- addamountitem{a=2} @self
+- clearenchantmentitem @self
 ```
 
-This will increase the amount of the item in the player's main hand by 2.
+## Aliasses
+
+- itemcaster:clearenchantmentsitem
+- itemcaster:clearenchantments
+- clearenchantmentsitem
+- clearenchantments
+- clearenchant

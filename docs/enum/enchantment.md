@@ -1,8 +1,6 @@
 ---
 title: Enchantments Enum
 date:
-  created: 2025-08-06
-  updated: 2025-08-06
 authors:
 - phanisment
 ---

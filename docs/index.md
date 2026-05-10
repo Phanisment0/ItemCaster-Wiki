@@ -1,10 +1,7 @@
 ---
 title: Home
-description: First page of the Wiki.
+description: Documentation for plugin ItemCaster
 icon: material/home
-date:
-  created: 2025-08-4
-  updated: 2025-08-4
 authors:
 - phanisment
 ---
@@ -51,9 +48,7 @@ This is example usage of this plugin, Casting Mythicmobs Skill with Item.
 
 The skill is created by [:simple-discord: KiKo](https://discordlookup.com/user/794739262917967912)
 
-<video controls>
-	<source src="assets/videos/usage_example.mp4" type="video/mp4">
-</video>
+![type:video](assets/videos/usage_example.mp4)
 
 ---
 

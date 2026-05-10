@@ -1,7 +1,4 @@
 ---
-date:
-  created: 2025-08-4
-  updated: 2025-08-5
 authors:
 - phanisment
 ---
@@ -22,6 +19,7 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
              skill: <String>,
              activator: <String>,
              cooldown: <Double>,
+             show_cooldown: <Boolean>,
              sneaking: <Boolean>,
              interval: <Integer>,
              signal: <String>,
@@ -43,6 +41,7 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
           "skill": <String>,
           "activator": <String>,
           "cooldown": <Double>,
+          "show_cooldown": <Boolean>,
           "sneaking": <Boolean>,
           "interval": <Integer>,
           "signal": <String>,

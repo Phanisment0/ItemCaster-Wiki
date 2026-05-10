@@ -1,12 +1,3 @@
----
-title: Attack Cooldown
-date:
-  created: 2025-08-05
-  updated: 2025-08-06
-authors:
-- phanisment
----
-
 This condition check if player attack cooldown is cooldown or not.
 
 ## Attributes
