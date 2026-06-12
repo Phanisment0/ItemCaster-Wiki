@@ -1,9 +1,3 @@
----
-title: Damage Item
-authors:
-- phanisment
----
-
 Decreases the durability of the item in a specified slot, such as the player's hand or equipment slot. This can simulate damage or usage on an item when a skill is triggered.
 
 ## Attributes

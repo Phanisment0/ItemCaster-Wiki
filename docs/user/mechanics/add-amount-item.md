@@ -1,9 +1,3 @@
----
-title: Add Amount Item
-authors:
-- phanisment
----
-
 Increases the amount of the item in a specified slot, such as the player's hand or inventory. This mechanic is useful for giving additional items as part of a skill.
 
 ## Attributes

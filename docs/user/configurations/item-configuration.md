@@ -15,31 +15,25 @@ You can define abilities and display settings using the following structure:
 ### Location 
 Place your item configurations inside:
 
-- `MythicMobs/items/*.yml`  
+- `MythicMobs/items/*.yml`
 - or `MythicMobs/packs/<pack_name>/items/*.yml`
 
 ## Configuration Structure
 
-```yml
+```yaml title="MythicMobs/items/example_items.yml"
 
 Example_Item:
-  ModelItem: <String>        # Custom Model ID or external model source
+  ModelItem: <String>      # Custom Model ID or external model source
+  
   Options:
-    HideTooltip: <Boolean>   # (1.21+) Hide all tooltips from the item
-  Abilities:                 # This Map Array is called Ability Attributes
-  - skill: <String>          # Mythicmobs Id Skill
-    activator: <String>      # Event Trigger for the skill
-    cooldown: <Double>       # The cooldown item (in Seconds)
-    show_cooldown: <Boolean> 
-    sneaking: <Boolean>      # Check if player is sneaking or not
-    interval: <Integer>      # Delay tick interval, special for `TICK` activator.
-    signal: <String>         # 
-    variables:               # Variable map for skill.
-      <key>: <value>
+    HideTooltip: <Boolean> # (1.21+) Hide all tooltips from the item
+  
+  Abilities:               # This Map Array is called Ability Attributes
+  - <Attribute>
 
 ```
 
-[See Here for full explanation of Ability Attributes](../attributes/index.md)
+[See here for a full explanation of ability attributes.](../attributes/index.md)
 
 ### ModelItem
 
@@ -55,6 +49,7 @@ Example_Item:
 - `itemsadder:<namespace>:<item_id>`
 - `nexo:<item_id>`
 - `oraxen:<item_id>`
+- `craftengine:<item_id>`
 
 ### HideTooltip
 > Only works in Minecraft 1.21 and newer

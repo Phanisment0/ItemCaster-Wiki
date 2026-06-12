@@ -12,24 +12,22 @@ This section explains the **NBT structure** used by ItemCaster for handling skil
 === "NBT"
 
     ```mcfunction
-    minecraft:custom_data[
-      ItemCaster: {
-        abilities: [
-          {
-             skill: <String>,
-             activator: <String>,
-             cooldown: <Double>,
-             show_cooldown: <Boolean>,
-             sneaking: <Boolean>,
-             interval: <Integer>,
-             signal: <String>,
-             variables: {
-              <key>: <value>
-            }
+    ItemCaster: {
+      abilities: [
+        {
+          skill: <String>,
+          activator: <String>,
+          cooldown: <Double>,
+          show_cooldown: <Boolean>,
+          sneaking: <Boolean>,
+          interval: <Integer>,
+          signal: <String>,
+          variables: {
+            <key>: <value>
           }
-        ]
-      }
-    ]
+        }
+      ]
+    }
     ```
 
 === "JSON"

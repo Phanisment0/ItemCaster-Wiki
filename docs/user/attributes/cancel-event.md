@@ -1,6 +1,6 @@
 # WIP
 
-```yml
+```yaml
 Abilities:
 - skill: SummonSkeleton
   activator: BOW_SHOOT

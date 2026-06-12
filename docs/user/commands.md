@@ -20,7 +20,7 @@ Commands & Aliasses:
 ## /ic reload
 > Aliasses: /ic r
 
-Send message to use `/mm r` instead, beacuse this plugin is add-on of MythicMobs.
+Send a message to use `/mm r` instead, because this plugin is an add-on of MythicMobs.
 
 ## /ic menu
 > Aliasses: /ic m
@@ -30,17 +30,29 @@ Open the menu editor.
 ## /ic hand
 > Aliasses: /ic h
 
-## /ic hand set
+Command section for HandCaster.
+
+## /ic hand set <ability\> [target]
 > Aliasses: /ic h s
 
-## /ic hand remove
+Set target ability.
+
+## /ic hand remove [target]
 > Aliasses: /ic h r
+
+Remove target ability.
 
 ## /ic profile
 > Aliasses: /ic p
 
-## /ic profile save [player]
+Player data section.
+
+## /ic profile save [target]
 > Aliasses: /ic p s
+
+Save the player target data.
 
 ## /ic profile saveall
 > Aliasses: /ic p sa
+
+Save all online player data.

@@ -1,5 +1,7 @@
 Defines the cooldown **(in seconds)** between each skill activation. This prevents the skill from being triggered repeatedly in a short period.
 
+If you set cooldown in MythicMobs skill config, will be override by cooldown in Ability attribute.
+
 !!! important
     You must set the MythicMobs skill's `Cooldown` to `0` in your skill configuration. Otherwise, the `cooldown` attribute in this plugin **will not work**, due to how MythicMobs handles internal cooldowns.
 

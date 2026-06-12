@@ -38,6 +38,7 @@ The variables `attribute` only supports the following value types:
 |--------------|-------------------------------|--------------------|
 | `int`        | Whole numbers                 | `damage: 5`        |
 | `float`      | Decimal numbers               | `range: 3.5`       |
+| `double`     | Floating point numbers        | `cooldown: 0.1`    |
 | `string`     | Text values (quoted if needed)| `message: "Hello!"`|
 
 !!! caution

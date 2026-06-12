@@ -62,10 +62,10 @@ nav:
   - Attributes List:
     - user/attributes/index.md
     - Skill & Activator: user/attributes/skill-activator.md
+    - Show Cooldown: user/attributes/show-cooldown.md
     - Cooldown: user/attributes/cooldown.md
     - Power: user/attributes/power.md
     - Sneaking: user/attributes/sneaking.md
-    - Interval: user/attributes/interval.md
     - Signal: user/attributes/signal.md
     - Cancel Event: user/attributes/cancel-event.md
     - Variables: user/attributes/variables.md
@@ -75,7 +75,15 @@ nav:
     - Hand: user/configurations/hand-configuration.md
   - Conditions List:
     - user/conditions/index.md
-    - Attack Cooldown: user/conditions/attack-cooldown.md
+    - user/conditions/attack-cooldown.md
+    - user/conditions/consume-mana.md
+    - user/conditions/crossbow-charged.md
+    - user/conditions/food-level.md
+    - user/conditions/food-saturation-level.md
+    - user/conditions/has-hand-caster.md
+    - user/conditions/item-durability.md
+    - user/conditions/mana.md
+    - user/conditions/max-mana.md
   - Mechanics List:
     - user/mechanics/index.md
     - user/mechanics/add-amount-item.md
@@ -90,6 +98,20 @@ nav:
     - user/mechanics/set-item.md
     - user/mechanics/set-custom-model-data-item.md
     - user/mechanics/set-type-item.md
+    - user/mechanics/add-crossbow-projectile.md
+    - user/mechanics/add-food-level.md
+    - user/mechanics/add-food-saturation-level.md
+    - user/mechanics/give-item.md
+    - user/mechanics/reduce-food-level.md
+    - user/mechanics/reduce-food-saturation-level.md
+    - user/mechanics/remove-hand-activator.md
+    - user/mechanics/set-food-level.md
+    - user/mechanics/set-food-saturation-level.md
+    - user/mechanics/consume-mana.md
+    - user/mechanics/increase-mana.md
+    - user/mechanics/set-hand-caster.md
+    - user/mechanics/set-mana.md
+    - user/mechanics/set-max-durability.md
   - Example:
     - user/example/index.md
     - Armor Ability: user/example/armor-ability.md
@@ -97,14 +119,15 @@ nav:
   - Misc:
     - enum/enchantment.md
     - enum/equipment-slot.md
+  - Placeholder: user/placeholder.md
   - Activator List: user/activator-list.md
   - NBT Structure: user/nbt-structure.md
   - Commands: user/commands.md
 - Dev:
   - dev/index.md
   - API Helper: dev/api-helper.md
-- Change Log:
-  - change_log/2.0.0.md
-  - change_log/2.0.1.md
-  - change_log/2.1.0.md
+- Compatibility:
+  - PlaceholderAPI: compatibility/placeholder-api.md
+  - AuraSkills: compatibility/aura-skills.md
 - Support: support.md
+- FAQ: faq.md

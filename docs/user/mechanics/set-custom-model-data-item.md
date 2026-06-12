@@ -1,9 +1,3 @@
----
-title: Set Custom Model Data Item
-authors:
-- phanisment
----
-
 Changes the **custom model data** of an item in a specific slot.  
 This is commonly used in resource pack-based plugins (like ItemsAdder, Oraxen, or Nexo) to change the appearance of an item.
 

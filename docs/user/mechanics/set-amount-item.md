@@ -1,9 +1,3 @@
----
-title: Set Amount Item
-authors:
-- phanisment
----
-
 Sets the item amount in a specified equipment slot to a specific number.
 
 ## Attributes

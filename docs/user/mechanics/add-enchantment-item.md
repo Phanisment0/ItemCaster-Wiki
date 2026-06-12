@@ -1,9 +1,3 @@
----
-title: Add Enchantment Item
-authors:
-- phanisment
----
-
 Adds an enchantment to the item in a specified slot, such as the player's hand or inventory. 
 
 ## Attributes

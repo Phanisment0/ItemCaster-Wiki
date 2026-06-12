@@ -1,9 +1,3 @@
----
-title: Set Durability Item
-authors:
-- phanisment
----
-
 Sets the durability of the item in the specified equipment slot to a specific value.
 
 > Durability value depends on item type. For example, a diamond sword has max durability of 1561.

@@ -1,9 +1,3 @@
----
-title: Set Item
-authors:
-- phanisment
----
-
 This mechanic is similar to MythicMobs' `equip` mechanic, but with an important difference: `SetItem` supports external item systems that are integrated with **ItemCaster API**.
 
 This means you can assign custom items from other plugins (like ItemsAdder, Oraxen, Nexo, and MythicMobs) directly through this mechanic.

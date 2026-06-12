@@ -8,3 +8,8 @@ This condition check if player attack cooldown is cooldown or not.
 Conditions:
 - attackCooldown false  # Checks if the player's attack is not on cooldown
 ```
+
+## Aliases
+- isattackoncooldown
+- isattackcooldown
+- atkcd

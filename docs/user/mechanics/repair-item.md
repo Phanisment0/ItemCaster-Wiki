@@ -1,9 +1,3 @@
----
-title: Repair Item
-authors:
-- phanisment
----
-
 Repair the item in a specified slot, such as the player's hand or inventory.
 
 ## Attributes

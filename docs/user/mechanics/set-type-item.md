@@ -1,9 +1,3 @@
----
-title: Set Type Item
-authors:
-- phanisment
----
-
 Changes the **material type** of the item in the specified slot.  
 
 ## Attributes

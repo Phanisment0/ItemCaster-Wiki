@@ -1,9 +1,3 @@
----
-title: Clear Enchantment Item
-authors:
-- phanisment
----
-
 Removes **all enchantments** from the item in the specified equipment slot.
 
 ## Attributes

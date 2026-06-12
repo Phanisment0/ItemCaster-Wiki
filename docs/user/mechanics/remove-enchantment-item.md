@@ -1,9 +1,3 @@
----
-title: Remove Enchantment Item
-authors:
-- phanisment
----
-
 Removes a specific enchantment from the item in a specified equipment slot.
 
 ## Attributes

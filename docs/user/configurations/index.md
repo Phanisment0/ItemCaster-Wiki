@@ -9,6 +9,7 @@ This section explains how to configure various parts of the plugin. In the futur
 
 ## Available Configurations
 
-| Configuration                                 | Description |
-|-----------------------------------------------|-------------|
+| Configuration                                 | Description                                                    |
+|-----------------------------------------------|----------------------------------------------------------------|
 | [Item Configuration](./item-configuration.md) | Customize MythicMobs item, inside configuration of MythicMobs. |
+| [Hand Configuration](./hand-configuration.md) | Set player ability without item as medium.                     |
